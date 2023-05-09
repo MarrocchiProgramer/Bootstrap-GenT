@@ -1,0 +1,51 @@
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-emphasis: none;
+}
+
+a:visited{
+    color: inherit;
+}
+
+
+main{
+    width: 98vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.formulario{
+    border-right: 1px solid #777;
+}
+
+.formulario-enviar{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 2px;
+}
+.formulario-enviar:hover{
+    background-color: rgb(163, 163, 228);
+    transition: 0.3s;
+}
+
+.texto{
+    font-size: 30px;
+    font-weight: bold;
+    border-left: 1px solid #777;
+}
+
+textarea{
+    max-height: 200px;
+}
